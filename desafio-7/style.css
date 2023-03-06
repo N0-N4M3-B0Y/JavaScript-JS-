@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-weight: bolder;
+}
+
+body {
+    font-family: 'Tilt Neon', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main .coming-soon{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main section .container .countdown {
+    display: flex;
+    flex-direction: row;
+    gap: 3.2rem;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
