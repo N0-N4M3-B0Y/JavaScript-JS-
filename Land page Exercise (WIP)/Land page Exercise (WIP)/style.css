@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    
+}
+
+main{
+    padding-bottom: 2rem;
+}
+
+.daBigOne{
+    background-color: #474E68;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #EBECF1;
+}
+
+#topNav{
+    background-color: #6B728E ;
+}
+
+#eniacTeamImage{
+    border-radius: 10%;
+    transition: all 0.3s;
+}
+
+#eniacTeamImage:hover{
+    border-radius: 5%;
+    padding-bottom: 2%;
+}
+
+.eniac{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.eniac-title{
+    transition: all 0.3s;
+}
+
+.eniac-title:hover{
+    color: #F9B5D0;
+}
+
+.eniac-text{
+    width: 50rem;
+}
+
+.eniac-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-eniac-members{
+    padding-top: 1rem;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.eniac-member{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    transition: all 0.4s;
+}
+
+.eniac-member:hover{
+    border-radius: 40%;
+}
+
+.footer-box{
+    background-color: #FFBFA9;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.what-was-eniac{
+    padding-top: 2rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
