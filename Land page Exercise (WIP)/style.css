@@ -5,12 +5,16 @@ body{
     
 }
 
+main{
+    padding-bottom: 2rem;
+}
+
 .daBigOne{
-    background-color: #fff ;
+    background-color: #FFACAC ;
 }
 
 #topNav{
-    background-color: #FF597B ;
+    background-color: #FFBFA9 ;
 }
 
 #eniacTeamImage{
@@ -19,7 +23,8 @@ body{
 }
 
 #eniacTeamImage:hover{
-    transform: scale(1.05);
+    border-radius: 5%;
+    padding-bottom: 2%;
 }
 
 .eniac{
@@ -63,6 +68,18 @@ body{
 }
 
 .eniac-member:hover{
-    width: 90px;
-    height: 90px;
+    border-radius: 40%;
+}
+
+.footer-box{
+    background-color: #FFBFA9;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #000;
 }
